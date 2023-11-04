@@ -1,0 +1,11 @@
+{
+  "/api/*": {
+    "target": "https://devv.invinsense.io/api",
+    "secure": true,
+    "pathRewrite": {
+      "^/api": ""
+    },
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}
